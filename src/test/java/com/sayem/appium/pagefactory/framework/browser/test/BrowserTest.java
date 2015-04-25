@@ -14,7 +14,7 @@ public class BrowserTest {
     @Test
     public void openFirefox() throws Exception {
         WebBrowser browser = LocalBrowserBuilder
-                .getFirefoxBuilder("http://enterprise-demo.user.magentotrial.com/")
+                .getChromeBuilder("http://enterprise-demo.user.magentotrial.com/")
                 .build();
 
         browser.openPageByURL(browser.getBaseTestUrl());

@@ -3,6 +3,8 @@
 ## Selenium ## 
 Xls_Reader
 Xls_Reader.java
+selenium.log
+selenium.log*
 
 ### Java ###
 *.class
